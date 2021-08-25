@@ -310,7 +310,7 @@ public class MainActivity extends AppCompatActivity {
                 time.setText(String.format("%02d", HH) + ":" + String.format("%02d", MM) + ":" + String.format("%02d", SS));
                 //Play.performClick();
             } else
-            {
+            {   PauseTimer();
                 SetTime.setVisibility(View.VISIBLE);
                 progressBar.setProgress(100);
                 CurrentTime=Time;
